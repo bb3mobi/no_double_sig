@@ -1,0 +1,26 @@
+{
+    "name": "bb3mobi/no_double_sig",
+    "type": "phpbb-extension",
+    "description": "Exclude repeat signatures",
+    "homepage": "http://phpbbguru.net",
+    "version": "1.0.0",
+    "time": "2015-08-15",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Anvar",
+            "email": "anvar.all@mail.ru",
+            "homepage": "http://bb3.mobi",
+            "role": "Developer phpBB"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Exclude repeat signatures",
+        "soft-require": {
+        "phpbb/phpbb": "3.1.*@dev"
+        }
+    }
+}

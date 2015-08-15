@@ -1,0 +1,5 @@
+services:
+    bb3mobi.no_double_sig.listener:
+        class: bb3mobi\no_double_sig\event\listener
+        tags:
+            - { name: event.listener }
